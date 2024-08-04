@@ -15,16 +15,16 @@ console.log(hasEvenNumber);
 
 
 // task 3
-let arrAsc = [1, 5, 3, 4, 2, 6, 2, 22, 33]; // initial array
-arrAsc.sort((a, b) => a - b); // proper sorting for numbers
+let arrAsc = [1, 5, 3, 4, 2, 6, 2, 22, 33]; 
+arrAsc.sort((a, b) => a - b); 
 console.log("🚀 ~ arrAsc:", arrAsc)
 
-let arrDesc = [1, 5, 3, 4, 2, 6, 2, 22, 33]; // initial array
-arrDesc.sort((a, b) => b - a); // proper sorting for numbers
+let arrDesc = [1, 5, 3, 4, 2, 6, 2, 22, 33]; 
+arrDesc.sort((a, b) => b - a); 
 console.log("🚀 ~ arrDesc:", arrDesc)
 
-let arr = [1, 5, 3, 4, 2, 6, 2, 22, 33]; // initial array
-arr.reverse(); // reversing the sorted array
+let arr = [1, 5, 3, 4, 2, 6, 2, 22, 33]; 
+arr.reverse(); 
 console.log("🚀 ~ arr:", arr)
 
 
