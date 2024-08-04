@@ -14,3 +14,24 @@ canCapture(["G3", "E5"]) ➞ true
 Notes
 Assume there are no blocking pieces.
  */
+
+function canCapture(array){
+    let letters = [];
+    let numbers = [];
+    array.forEach(block => {
+        block = block.split("")
+        letters.push(block[0].charCodeAt(0))
+        numbers.push(parseInt(block[1]))
+    }); 
+    if (Math.abs(letters.reduce((a,b)=> a-b)) === Math.abs(numbers.reduce((a,b)=> a-b))){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+
+console.log(canCapture(["A1", "H8"])); // true
+console.log(canCapture(["A1", "C2"])); // false
+console.log(canCapture(["G3", "E5"])); // true
