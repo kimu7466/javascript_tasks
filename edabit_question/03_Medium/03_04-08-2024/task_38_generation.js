@@ -38,35 +38,23 @@ function generation(idx, gender){
 console.log(generation(3, "m"));    // great grand son
 console.log(generation(3, "f"));    // great grand daughter
 
-
 console.log(generation(2, "m"));    // grand son
 console.log(generation(2, "f"));    // grand daughter
-
 
 console.log(generation(1, "m"));    // son
 console.log(generation(1, "f"));    // daughter
 
-
 console.log(generation(0, "m"));    // me!
 console.log(generation(0, "f"));    // me!
-
 
 console.log(generation(-1, "m"));    //father
 console.log(generation(-1, "f"));    //mother
 
-
 console.log(generation(-2, "m"));   // grand father
 console.log(generation(-2, "f"));   // grand mother
 
-
 console.log(generation(-3, "m"));   // great grand father
 console.log(generation(-3, "f"));   // great grand mother"
-
-
-
-
-
-
 
 
 
