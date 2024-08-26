@@ -15,3 +15,5 @@ function word_count(string) {
 }
 
 console.log(word_count(string_));
+
+
